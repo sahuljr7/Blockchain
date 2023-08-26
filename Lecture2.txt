@@ -1,0 +1,61 @@
+Why we need blockchain?
+
+Imagine there are two entities a and b living far away and want to transfer money to each other. One
+is in America and one is in Asia. As of today, in order to transfer the money, they rely on a third party on which they have to trust. 
+
+Now what are the possible results by doing this way: 
+1. Any transaction there are high transaction fees associated. 
+2. With it there could be problem of double spending. 
+3. There could be internet based frauds 
+4. Poor data recovery
+
+Now let's see what does all these means: 
+
+1. High transaction fee: For any transaction, bank will charge a relatively very high amount of transaction free as compared to what as of today cryptocurrency charges.
+
+2. Double spending: Double spending is a digital error where money can be spent twice from your account so for example if you have eight hundred dollars in your account and you might end up spending thousand dollars which is an invalid transaction.
+
+3. Hackers might attack financial institutions and gain unauthorized access to steal your money.
+
+4. Poor data recovery: Retrieving lost data is very difficult in a centralized system as there is only a single copy of information but as compared to the distributed databases the distributed ledger technology like blockchain it is easy as the information is distributed across multiple nodes.
+---------------------------------------------------------------------------------------------------------------
+Now these problems can be solved using bitcoin and blockchain technology and we will see how. 
+So let's first understand what is bitcoin and blockchain.  
+
+Bitcoin
+1. Bitcoin is a digital currency which is used to send and receive money across the world. 
+2. It is a barrier-free currency in a decentralized manner with minimum transfer fee or we can say it's gonna be relatively very very less as compared to what bank charges. 
+3. It doesn't involve a third party no intermediate reason involved, thereby reducing the cost of transaction, fast and cheap transfer is possible. 
+4. Personal information identity of a user is hidden and all the transactions are cryptographically secure as they are being signed using your private key. Bitcoin does this by storing and transacting the money over a distributed peer-to-peer network called blockchain. So, therefore it becomes very important for us in order to understand how bitcoin works we also need to understand what is blockchain because that is the underlying technology.
+
+What is blockchain?
+
+1. Blockchain is a distributed database of immutable records called blocks which are secured using cryptography. 
+
+2. Now here we can see once the data is recorded it cannot be changed, it cannot be altered and that is the attribute of immutability of blockchain. 
+
+3. A block is a record book which contains the details of transactional data. Every block is given an aggregated set of transactions to be validated verified and added to itself.
+So, basically a block consists of four primary details which we will take a look at 
+1. It contains the hash of a previous block 
+2. It contains an aggregated list of transactions 
+3. It also contains the value of nonce and 
+4. The hash for the block itself which itself is like a digital signature of the block 
+
+1. Hash of previous block: It holds the hash value of the previous block to which it is connected.
+
+2. Transactional Data: Contains details of several transactions which are aggregated in this block
+
+3. Nonce is a random number, a random value which is generated to derive a hash value which should be less than the target decided for the block
+
+4. Hash is alphanumeric value which is used to identify the block itself and it is unique. 
+---------------------------------------------------------------------------------------------------------------
+Now let's deep dive into blockchain 
+
+Blockchain creates a chain of blocks.
+In a blockchain, the previous hash value of a block is always equal to the hash value of its previous block.
+
+Now let's deep dive into blockchain 
+6.png
+So as we can see here, the previous hash value of block number two is 23a which is the hash value of block one.
+Also the previous hash value of block one is zero because it is the first block in the blockchain and it is called the genesis block. So the first block is called the genesis block and does not have any previous hash value. 
+
